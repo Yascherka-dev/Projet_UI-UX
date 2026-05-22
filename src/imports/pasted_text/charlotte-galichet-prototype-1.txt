@@ -1,0 +1,175 @@
+I'm providing screenshots of a high-fidelity prototype created in Claude Design 
+for a Parisian lawyer's website (Charlotte Galichet — AI law, RGPD, 
+intellectual property, B2B only).
+
+Your mission: reproduce this prototype pixel-perfect in Figma with 
+a proper component-based design system, auto-layout frames, and 
+fully working prototype interactions.
+
+---
+
+REPRODUCTION RULES:
+- Match every screen exactly as shown in the screenshots
+- Recreate every section, spacing, color, and typographic choice
+- Do not simplify or approximate — be precise
+- Every repeated element (nav, footer, cards, tags) must be a reusable component
+- Use Auto Layout on every frame and component
+
+---
+
+DESIGN SYSTEM TO CREATE:
+
+Colors (create as Figma color styles):
+- Dark/Navy: #0F172A
+- White: #FFFFFF
+- Background light: #F8FAFC
+- Accent blue: #1847F0
+- Text primary: #111827
+- Text muted: #6B7280
+- Tag IA blue bg: #DBEAFE / text: #1D4ED8
+- Tag RGPD green bg: #DCFCE7 / text: #166534
+- Tag PI purple bg: #EDE9FE / text: #5B21B6
+- Border: #E5E7EB
+
+Typography (create as Figma text styles):
+- H1 Display: Clash Display Bold, 64px, line-height 1.1
+- H2: Inter SemiBold, 40px, line-height 1.2
+- H3: Inter SemiBold, 24px, line-height 1.3
+- Body: Inter Regular, 16px, line-height 1.6
+- Small/Muted: Inter Regular, 14px, #6B7280
+- Tag: Inter Medium, 12px, uppercase, letter-spacing 0.05em
+- CTA: Inter SemiBold, 15px
+
+Components to create:
+- NavBar (dark, with logo + 4 links + CTA button) — fixed position
+- Footer (dark, with logo + links + social icons)
+- CTAButton/Primary (blue, hover state included)
+- CTAButton/Ghost (white outline, hover state)
+- TagPill (3 variants: IA blue, RGPD green, PI purple)
+- ExpertiseCard (with colored left border, title, description, link)
+- ArticleCard (with tag, title, excerpt, date, link)
+- FAQItem (accordion, open + closed states)
+- CredibilityStat (number + label)
+
+---
+
+PAGES TO BUILD (6 frames, desktop 1440px wide):
+
+FRAME 1 — Home
+Exact reproduction of the screenshot provided.
+Sections in order:
+1. NavBar component (fixed, dark)
+2. Hero: dark navy bg (#0F172A) with animated gradient annotation, 
+   giant white headline "Avocate en droit de l'IA, RGPD & propriété intellectuelle" 
+   with "IA" highlighted in electric blue underline, 
+   subtitle "Pour les entreprises B2B qui avancent vite.", 
+   two CTA buttons side by side, headshot placeholder right
+3. Credibility bar: glassmorphism style on dark bg, 
+   3 stats: "20 ans / Barreau de Paris" — "Dalloz IP/IT / Publications" — "B2B / Tous secteurs"
+4. Expertise section: white bg, section title, 3 ExpertiseCard components side by side
+5. Recent articles: section title, 2 ArticleCard components
+6. Footer component
+
+FRAME 2 — À propos
+1. NavBar
+2. Page hero: white bg, large page title "À propos"
+3. Two-column: left = photo placeholder with geometric colored shape behind, 
+   right = large italic pull quote "Je ne surveille pas vos pratiques — je les protège." 
+   then narrative text about Charlotte (career, Dalloz publications, B2B focus, Paris 1er)
+4. Publications section: Dalloz IP/IT badge (green pill tag + description)
+5. CTA section: dark bg, "Vous avez un projet ?" + primary CTA button
+6. Footer
+
+FRAME 3 — Domaines & FAQ
+1. NavBar
+2. Page hero: white bg, large title "Domaines d'expertise"
+3. Three domain sections full-width, each with:
+   - Colored accent line top (blue/green/purple)
+   - Domain title (H2)
+   - Description paragraph
+   - 2 FAQItem components (accordion)
+   Domain 1: Droit de l'IA (blue accent)
+   Domain 2: RGPD (green accent)
+   Domain 3: Propriété intellectuelle (purple accent)
+4. Honoraires section: light gray bg, title "Fonctionnement des honoraires" + text
+5. Footer
+
+FRAME 4 — Articles
+1. NavBar
+2. Page hero: title "Articles & Veille juridique"
+3. Filter tabs: "Tous / IA & Numérique / RGPD & Données / Propriété intellectuelle"
+   (first tab active in blue)
+4. Featured article: large full-width card, dark background treatment, 
+   tag + big title + excerpt + date + link
+5. Article grid: 2 columns x 2 rows = 4 ArticleCard components
+   Article titles:
+   Card 1: "Pixels de tracking CNIL : ce qui change pour vos emails" (RGPD tag)
+   Card 2: "AI Act : vos obligations en tant qu'entreprise utilisatrice" (IA tag)
+   Card 3: "CEPD et données de santé : la nouvelle recommandation" (RGPD tag)
+   Card 4: "Contrats IA : les clauses indispensables en 2026" (IA tag)
+6. Footer
+
+FRAME 5 — Contact
+1. NavBar
+2. Two-column split layout:
+   LEFT panel (dark #0F172A, 40% width): 
+   animated gradient annotation, large white headline 
+   "Parlons de vos enjeux juridiques", subtitle text, 
+   decorative large quotation mark shape in background
+   RIGHT panel (white, 60% width): 
+   title "Prendre rendez-vous", 
+   subtitle "Envoyez vos documents par email avant la confirmation. 
+   Charlotte examine votre dossier et confirme sous 24h.",
+   Calendly embed placeholder (large gray rounded rectangle with label),
+   honoraires note in muted italic below
+3. Footer
+
+FRAME 6 — Confirmation email
+Email client mockup:
+- Light gray email header bar (From / Subject / Date fields as gray lines)
+- From: charlotte.galichet@avocatspi.com
+- Subject: "Demande de RDV reçue — Charlotte Galichet Avocate"
+- Email body white card: 
+  greeting + confirmation text in French + signature
+- Green success badge below email card: 
+  checkmark icon + "RDV confirmé — vous recevrez une confirmation sous 24h"
+
+---
+
+PROTOTYPE INTERACTIONS (connect all frames):
+
+NavBar "À propos" → Frame 2
+NavBar "Domaines" → Frame 3
+NavBar "Articles" → Frame 4
+NavBar "Contact" → Frame 5
+NavBar logo "CG Avocat" → Frame 1
+Any CTA "Prendre rendez-vous" on any frame → Frame 5
+Calendly "Confirmer le créneau" button → Frame 6
+Frame 6 back arrow or logo → Frame 1
+
+Transition: Smart Animate or Dissolve, 300ms ease-in-out
+
+---
+
+ANNOTATIONS FOR ANIMATIONS
+(since Figma doesn't render animations, annotate them as purple sticky notes 
+next to each element):
+
+Hero headline: "ANIMATION — words slide up staggered on load, 100ms delay each"
+"IA" word: "ANIMATION — blue underline draws itself left to right on load"
+Credibility numbers: "ANIMATION — count up from 0 on scroll enter"
+Expertise cards: "ANIMATION — stagger fade-up on scroll, 150ms delay between cards"
+CTA buttons: "ANIMATION — scale 1.02 + blue glow on hover"
+Article cards: "ANIMATION — translateY -4px + colored top border on hover"
+FAQ accordion: "ANIMATION — smooth expand 300ms ease"
+Hero background: "ANIMATION — slow moving gradient mesh, 8s loop"
+Section separator lines: "ANIMATION — draw left to right on scroll enter"
+
+---
+
+EXPORT CHECKLIST:
+- All frames named clearly (01-Home, 02-About, 03-Domaines, 04-Articles, 05-Contact, 06-Confirmation)
+- All components in a dedicated Components page
+- All color and text styles saved in Figma styles panel
+- Prototype flow named "Parcours principal"
+- Frame size: 1440px wide, auto height

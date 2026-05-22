@@ -1,0 +1,159 @@
+Add 2 additional high-fidelity screens to the existing prototype:
+
+---
+
+SCREEN 7 — LinkedIn Post (mobile, 390px wide)
+
+Reproduce a realistic LinkedIn mobile app interface showing a post from Charlotte Galichet.
+
+LINKEDIN APP CHROME:
+- Status bar top (black, iOS style: time left, signal/wifi/battery right)
+- LinkedIn top nav: search icon left, LinkedIn logo center, messaging icon right
+- Bottom tab bar: Home / My Network / Post / Notifications / Me (Home tab active)
+
+POST CARD:
+- Author header: 
+  Avatar circle (initials "CG", dark navy background #0F172A)
+  Name: "Charlotte Galichet" in bold
+  Title: "Avocate • Droit de l'IA • RGPD • Propriété intellectuelle • Barreau de Paris"
+  Subtitle: "1er • 847 abonnés"
+  "Suivre" button (blue outline)
+  3-dot menu top right
+
+POST CONTENT:
+  First line in bold: "L'AI Act entre en vigueur. Voici ce que votre entreprise 
+  doit avoir mis en place avant le 2 août 2026."
+  
+  Body text (realistic LinkedIn formatting):
+  "Depuis hier, les premières obligations de l'AI Act s'appliquent aux 
+  systèmes IA à haut risque.
+  
+  Ce que beaucoup d'entreprises ignorent encore :
+  
+  → Une évaluation de conformité obligatoire
+  → Une documentation technique détaillée
+  → Un système de supervision humaine
+  → Des logs conservés minimum 6 mois
+  
+  Si vous déployez de l'IA dans vos process RH, votre scoring crédit 
+  ou vos systèmes médicaux — vous êtes concernés.
+  
+  J'accompagne les entreprises B2B sur ces sujets depuis 2006.
+  
+  Vous avez des questions ? Le lien en commentaire."
+  
+  "...voir plus" link in blue at bottom of text
+
+POST IMAGE CARD (below text):
+  Branded card — dark navy background (#0F172A)
+  Large white text: "AI Act"
+  Subtitle: "Ce que votre entreprise doit faire maintenant"
+  Small "CG Avocat" branding bottom right in electric blue
+  Subtle geometric shape in background (blue accent)
+
+ENGAGEMENT BAR:
+  Reactions: 👍❤️💡 "124 réactions"
+  "18 commentaires • 7 republications"
+
+ACTION BAR:
+  4 buttons in a row: "J'aime / Commenter / Republier / Envoyer"
+  (icon + label, gray, standard LinkedIn style)
+
+COMMENT PREVIEW below action bar:
+  Small avatar + "Charlotte Galichet: Article complet → avocatspi.com/articles/ai-act-obligations"
+  (blue link)
+
+---
+
+SCREEN 8 — Google Search Results (desktop, 1440px wide)
+
+Reproduce a realistic Google SERP (Search Engine Results Page) for the query 
+"avocat droit IA RGPD Paris".
+
+GOOGLE CHROME BROWSER:
+- Browser chrome top: tabs bar, address bar showing "google.com/search?q=avocat+droit+IA+RGPD+Paris"
+- Standard browser controls (back/forward/refresh/bookmark)
+
+GOOGLE SEARCH INTERFACE:
+- Google logo top left
+- Search bar with query "avocat droit IA RGPD Paris" filled in, search button right
+- Tab filters below search bar: "Tout / Images / Actualités / Maps / Plus" (Tout active)
+- Results count: "Environ 2 340 000 résultats (0,42 secondes)"
+
+LEFT COLUMN (main results, ~65% width):
+
+FEATURED SNIPPET (top, blue bordered box):
+  avocatspi.com › À propos
+  "Charlotte Galichet — Avocate en droit de l'IA à Paris"
+  Short description box with Charlotte's photo thumbnail left,
+  text: "Avocate au Barreau de Paris depuis 2006, Charlotte Galichet 
+  accompagne les entreprises B2B en droit de l'IA (AI Act), RGPD et 
+  propriété intellectuelle. Cabinet situé 4 place de Valois, Paris 1er."
+
+ORGANIC RESULT 1 (avocatspi.com — highlighted, best positioned):
+  Breadcrumb: avocatspi.com
+  Title (blue, 20px): "Charlotte Galichet — Avocate IA, RGPD & Droit du numérique · Paris"
+  Description: "Experte en droit de l'intelligence artificielle, conformité RGPD et 
+  propriété intellectuelle. Accompagnement des entreprises B2B. Publications Dalloz IP/IT. 
+  Cabinet Paris 1er. Prenez rendez-vous."
+  Sitelinks below (small blue links in 2 columns): 
+  "À propos / Domaines d'expertise / Articles & Veille / Contact — Prendre RDV"
+
+ORGANIC RESULT 2 (dcavocat.com — lower opacity, secondary):
+  Breadcrumb: dcavocat.com
+  Title: "DC Avocat — Droit du numérique & RGPD Paris"
+  Description: "Cabinet spécialisé en données personnelles, RGPD et nouvelles technologies..."
+
+ORGANIC RESULT 3 (caron-avocat.fr — lower opacity):
+  Breadcrumb: caron-avocat.fr  
+  Title: "Caron Avocat — Intelligence artificielle & Transformation numérique"
+  Description: "Cabinet dédié à l'IA, la cybersécurité et le droit du numérique..."
+
+ORGANIC RESULT 4 (nouveaumonde-avocats.com — lowest opacity):
+  Breadcrumb: nouveaumonde-avocats.com
+  Title: "Nouveau Monde Avocats — IT only, IT totally"
+  Description: "Avocats en droit du numérique et de l'innovation..."
+
+PEOPLE ALSO ASK section:
+  Title: "Autres questions posées"
+  4 accordion items:
+  "Quel avocat pour le RGPD à Paris ?"
+  "Qu'est-ce que l'AI Act ?"
+  "Comment choisir un avocat en droit du numérique ?"
+  "Combien coûte un avocat RGPD ?"
+
+RIGHT COLUMN (knowledge panel, ~35% width):
+  Google Knowledge Panel card (white, subtle shadow):
+  Large photo placeholder of Charlotte
+  Name: "Charlotte Galichet"
+  Subtitle: "Avocate • Droit de l'IA & RGPD"
+  Rating: ★★★★★ (not displayed — note: "Aucun avis Google — opportunité")
+  Address: 4 place de Valois, 75001 Paris
+  Phone: 01.42.36.53.91
+  Website: avocatspi.com (blue link)
+  Hours: "Sur rendez-vous"
+  Map thumbnail showing Paris 1er arrondissement
+  "Prendre un RDV" blue button
+
+---
+
+DESIGN CONSISTENCY WITH EXISTING PROTOTYPE:
+- LinkedIn screen must feel like the real LinkedIn mobile app, not a mockup
+- Google screen must feel like the real Google SERP, not a wireframe
+- Both screens serve as context screens in the user journey storyboards
+- LinkedIn screen connects to prototype flow: 
+  LinkedIn post → click link → Frame 1 (Home)
+- Google screen connects to prototype flow:
+  Result 1 click → Frame 1 (Home)
+
+ANNOTATIONS:
+- Purple sticky on LinkedIn: "PARCOURS 1 — Point d'entrée LinkedIn"
+- Purple sticky on Google: "PARCOURS 2 — Point d'entrée Google"
+- Arrow from LinkedIn post link → Frame 1 Home
+- Arrow from Google result 1 → Frame 1 Home
+
+---
+
+ADD TO PROTOTYPE INTERACTIONS:
+Screen 7 (LinkedIn) → click post link → Frame 1 Home
+Screen 8 (Google) → click result 1 → Frame 1 Home
