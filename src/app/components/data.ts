@@ -114,14 +114,15 @@ export const ALL_ARTICLES = [
 ];
 
 export const TIMELINE = [
-  { year: "2006", title: "Prestation de serment", body: "Inscription au Barreau de Paris, après le CAPA obtenu à l'EFB et un Master 2 en propriété intellectuelle." },
-  { year: "2006–2012", title: "Cabinets parisiens IP/IT", body: "Six années dans deux grands cabinets parisiens spécialisés en propriété intellectuelle et droit du numérique." },
-  { year: "2012–2016", title: "Juriste en industrie", body: "Direction juridique d'une entreprise tech française. Vue d'intérieur sur les enjeux opérationnels des équipes produit et data." },
-  { year: "2016", title: "Fondation du cabinet", body: "Création du cabinet Charlotte Galichet, 4 place de Valois, Paris 1er. Choix assumé du solo pour rester proche des dossiers.", highlight: true },
-  { year: "2018", title: "Publications Dalloz IP/IT", body: "Autrice régulière dans la revue Dalloz IP/IT — analyses, jurisprudence commentée, doctrine sur les évolutions du droit du numérique." },
-  { year: "2021", title: "Spécialisation IA", body: "Premiers dossiers structurants sur le droit de l'IA : audits d'algorithmes, contrats de licence de modèles, contentieux algorithmiques." },
-  { year: "2024", title: "AI Act & mise en conformité", body: "Accompagnement de scale-ups françaises et européennes dans leur mise en conformité avec le règlement européen sur l'IA." },
-  { year: "2026", title: "Aujourd'hui", body: "Cabinet en pleine activité, clientèle 100% B2B, interventions régulières à l'EFB et dans plusieurs masters spécialisés.", highlight: true },
+  { year: "2005", title: "Prestation de serment", body: "CAPA obtenu à l'EFB Paris, après un DESS droit du multimédia et de l'informatique (Paris II Panthéon-Assas) et une maîtrise de droit (Paris X Nanterre). Inscription au Barreau de Paris." },
+  { year: "2006–2015", title: "Cabinet Champagner-Katz", body: "Neuf ans dans ce cabinet parisien spécialisé en propriété intellectuelle — collaboratrice puis associée. Droit des marques, droit d'auteur, droit à l'image, IP/IT." },
+  { year: "2015–2016", title: "Cabinet Jacob Avocats", body: "Cabinet spécialisé en propriété intellectuelle et nouvelles technologies. Marques, logiciels, CGV/CGU, certification d'opérateurs de jeux en ligne, loi Informatique et Libertés." },
+  { year: "2016", title: "Fondation du cabinet", body: "Création du cabinet Charlotte Galichet, 4 place de Valois, Paris 1ᵉʳ. Exercice individuel centré sur le droit du numérique, la protection des données et la propriété intellectuelle.", highlight: true },
+  { year: "2017", title: "Enseignement & formation", body: "DU droit des données personnelles (Paris V Descartes). Chargée d'enseignement en droit des contrats à l'Université Paris XI." },
+  { year: "2018", title: "Publications Dalloz IP/IT", body: "Auteure régulière dans la revue Dalloz IP/IT — analyses, jurisprudence commentée et doctrine sur les évolutions du droit du numérique." },
+  { year: "2019", title: "Certification DPO & Bonadata", body: "Certifiée DPO par l'AFNOR. Secrétaire-générale puis Présidente de l'Association Bonadata, dédiée à la promotion de la protection des données personnelles." },
+  { year: "2020", title: "DU Compliance Officer", body: "Diplôme universitaire Compliance Officer — Université de Versailles-Saint-Quentin-en-Yvelines. Recertifiée DPO par l'AFNOR en 2022." },
+  { year: "2025", title: "IHEMI & Institut supérieur du droit", body: "Diplômée de l'Institut des Hautes Études du Ministère de l'Intérieur (session sécurité-justice). Professeure à l'Institut supérieur du droit.", highlight: true },
 ];
 
 export const PRINCIPLES = [

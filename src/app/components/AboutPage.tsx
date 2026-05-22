@@ -28,7 +28,7 @@ export function AboutPage({ onNavigate }: { onNavigate: (page: string) => void }
             </Reveal>
             <Reveal delay={200}>
               <p style={{ color: '#CBD5E1', fontSize: 18, lineHeight: 1.6 }}>
-                Charlotte Galichet a fondé son cabinet en juillet 2016, après dix années passées en grands cabinets parisiens et un poste de juriste en industrie. Solo par choix — pour rester précise, rapide et personnellement engagée sur chaque dossier.
+                Charlotte Galichet a fondé son cabinet en juillet 2016, après neuf ans en cabinets parisiens spécialisés en propriété intellectuelle. Solo par choix — pour rester précise, rapide et personnellement engagée sur chaque dossier.
               </p>
             </Reveal>
           </div>
@@ -104,22 +104,22 @@ export function AboutPage({ onNavigate }: { onNavigate: (page: string) => void }
               </Reveal>
               <Reveal delay={80}>
                 <h2 className="display-md" style={{ textWrap: 'balance', marginBottom: 32 }}>
-                  Dix ans à comprendre comment le droit s'applique au numérique.
+                  Vingt ans à construire une expertise en droit du numérique.
                 </h2>
               </Reveal>
               <Reveal delay={160}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 20, color: 'var(--muted)', fontSize: 16.5, lineHeight: 1.7 }}>
                   <p>
-                    Charlotte Galichet est avocate au Barreau de Paris depuis 2006. Elle a fondé son cabinet en juillet 2016, situé 4 place de Valois, 75001 Paris.
+                    Charlotte Galichet est avocate au Barreau de Paris depuis 2005. Elle a fondé son cabinet en juillet 2016, situé 4 place de Valois, 75001 Paris, après neuf ans au sein des cabinets Champagner-Katz et Jacob Avocats.
                   </p>
                   <p>
-                    Sa pratique est centrée sur trois domaines clés : le droit de l'intelligence artificielle, la protection des données personnelles (RGPD), et la propriété intellectuelle.
+                    Sa pratique couvre trois domaines : la protection des données personnelles (audits RGPD, DPIA, politique de confidentialité, DPO externe), le droit du numérique (IA, cookies, contrats de logiciels, droit de l'internet), et la propriété intellectuelle (marques, droit d'auteur, contentieux).
                   </p>
                   <p>
-                    Elle accompagne exclusivement des entreprises B2B, tous secteurs confondus, dans leurs enjeux juridiques liés au numérique et à l'innovation : éditeurs SaaS, plateformes de marketplace, fintechs, healthtechs, agences digitales, assureurs, retail innovants.
+                    DPO externe de six organismes — notamment dans le domaine de la recherche médicale — et conseil de trois sociétés d'assurances en matière de gestion des données personnelles.
                   </p>
                   <p>
-                    Charlotte publie régulièrement dans la revue Dalloz IP/IT, où elle partage son expertise et sa veille juridique sur l'évolution du droit du numérique. Elle intervient également à l'EFB et dans plusieurs masters spécialisés.
+                    Auteure dans la revue Dalloz IP/IT depuis 2018, certifiée DPO par l'AFNOR, et présidente de l'Association Bonadata. Professeure à l'Institut supérieur du droit depuis 2025.
                   </p>
                 </div>
               </Reveal>
@@ -213,7 +213,7 @@ export function AboutPage({ onNavigate }: { onNavigate: (page: string) => void }
             </Reveal>
             <Reveal delay={80}>
               <h2 className="display-lg" style={{ textWrap: 'balance' }}>
-                10 ans, condensés.
+                20 ans, condensés.
               </h2>
             </Reveal>
           </div>
