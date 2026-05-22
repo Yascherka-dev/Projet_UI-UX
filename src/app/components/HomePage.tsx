@@ -124,15 +124,14 @@ export function HomePage({ onNavigate }: { onNavigate: (page: string) => void })
             <div className="glass" style={{
               padding: '44px 56px',
               display: 'grid',
-              gridTemplateColumns: '1fr 1fr 1fr 1fr',
+              gridTemplateColumns: '1fr 1fr 1fr',
               gap: 0,
               alignItems: 'stretch',
             }}>
               {[
-                { num: 20, suffix: '', label: 'ans au Barreau de Paris', sub: 'Cabinet fondé en juillet 2016' },
+                { num: 10, suffix: '+', label: 'ans au Barreau de Paris', sub: 'Cabinet fondé en juillet 2016' },
                 { num: 47, suffix: '+', label: 'publications Dalloz IP/IT', sub: 'Veille mensuelle depuis 2018' },
                 { num: 100, suffix: '%', label: 'clientèle B2B', sub: 'Startups, scale-ups & corporates' },
-                { num: 1, suffix: 'ʳᵉ', label: 'consultation gratuite', sub: '30 min · diagnostic & devis' },
               ].map((stat, i, arr) => (
                 <div key={i} style={{
                   padding: '0 32px',
