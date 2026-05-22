@@ -104,7 +104,7 @@ export function AboutPage({ onNavigate }: { onNavigate: (page: string) => void }
               </Reveal>
               <Reveal delay={80}>
                 <h2 className="display-md" style={{ textWrap: 'balance', marginBottom: 32 }}>
-                  Vingt ans à comprendre comment le droit s'applique au numérique.
+                  Dix ans à comprendre comment le droit s'applique au numérique.
                 </h2>
               </Reveal>
               <Reveal delay={160}>
