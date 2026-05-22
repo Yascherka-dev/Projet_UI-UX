@@ -213,7 +213,7 @@ export function AboutPage({ onNavigate }: { onNavigate: (page: string) => void }
             </Reveal>
             <Reveal delay={80}>
               <h2 className="display-lg" style={{ textWrap: 'balance' }}>
-                Vingt ans, condensés.
+                10 ans, condensés.
               </h2>
             </Reveal>
           </div>

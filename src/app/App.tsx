@@ -257,6 +257,7 @@ function Footer({ onNavigate }: { onNavigate: (id: PageId) => void }) {
 export default function App() {
   const [page, setPage] = useState<PageId>('home');
   const [submission, setSubmission] = useState<Submission | null>(null);
+  const [navHidden, setNavHidden] = useState(false);
 
   const navigate = (id: PageId | string) => {
     setPage(id as PageId);
@@ -318,16 +319,38 @@ export default function App() {
         minWidth: 220,
       }}>
         <div style={{
-          fontSize: 11,
-          fontWeight: 600,
-          color: '#94A3B8',
-          marginBottom: 12,
-          textTransform: 'uppercase',
-          letterSpacing: '0.05em',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          marginBottom: navHidden ? 0 : 12,
         }}>
-          Navigation Prototype
+          <div style={{
+            fontSize: 11,
+            fontWeight: 600,
+            color: '#94A3B8',
+            textTransform: 'uppercase',
+            letterSpacing: '0.05em',
+          }}>
+            Navigation Prototype
+          </div>
+          <button
+            onClick={() => setNavHidden(h => !h)}
+            style={{
+              fontSize: 11,
+              color: '#64748B',
+              padding: '2px 8px',
+              borderRadius: 4,
+              border: '1px solid rgba(255,255,255,0.1)',
+              background: 'rgba(255,255,255,0.04)',
+              transition: 'color .2s',
+            }}
+            onMouseEnter={e => e.currentTarget.style.color = '#CBD5E1'}
+            onMouseLeave={e => e.currentTarget.style.color = '#64748B'}
+          >
+            {navHidden ? 'show' : 'hide'}
+          </button>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+        <div style={{ display: navHidden ? 'none' : 'flex', flexDirection: 'column', gap: 6 }}>
           {[
             { id: 'linkedin', label: '📱 LinkedIn — AI Act', color: '#0A66C2' },
             { id: 'linkedin2', label: '📱 LinkedIn — RGPD', color: '#10B981' },
